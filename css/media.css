@@ -1,0 +1,163 @@
+@media screen and (max-width: 768px) {
+  .nav .list i {
+    display: inline-block;
+    color: #ff305b;
+    font-size: 22px;
+  }
+  .list {
+    position: relative;
+  }
+
+  .nav .list ul {
+    display: none;
+    width: 200px;
+    position: absolute;
+    top: 22px;
+    right: 6px;
+    background-color: #555;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 0 #eee inset;
+  }
+  .nav .list ul li {
+    width: 100%;
+    padding: 20px 10px;
+  }
+
+  .nav .list:hover ul {
+    display: block;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+  .first-p {
+    font-size: 20px;
+  }
+  .animated-text {
+    font-size: 22px;
+  }
+  .about-text {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+  }
+  .about-img {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 5%;
+  }
+  .img-border {
+    border: none;
+    border-radius: 0;
+  }
+  .about-img img {
+    width: 100%;
+  }
+
+  .img-border .img {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .text-wrap-1,
+  .text-wrap {
+    float: none;
+    width: 100%;
+  }
+
+  .item {
+    float: none;
+    width: 100%;
+  }
+  .img-card {
+    float: none;
+    width: 100%;
+  }
+  .client-feedback {
+    padding: 20px;
+  }
+  .client-img {
+    text-align: center;
+    float: none;
+    width: 100%;
+  }
+  .client-img img {
+    width: 40%;
+  }
+  .client-feed-text {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+  }
+  .client-feedback::after {
+    top: -161px;
+  }
+  .blog-item {
+    float: none;
+    width: 100%;
+  }
+  .two-inp input {
+    float: none;
+    width: 100%;
+  }
+  .input-email {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+  .copy-right {
+    font-size: 16px;
+  }
+  .Portfolio-list ul li a {
+    font-size: 14px;
+  }
+  .client-feedback {
+    width: 100%;
+  }
+  .form {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .about-text {
+    width: 49%;
+    float: right;
+    margin-left: 2%;
+  }
+  .about-img {
+    width: 49%;
+    margin-left: 0;
+  }
+  .img-border {
+    border: none;
+    border-radius: 0;
+  }
+  .about-img img {
+    width: 100%;
+  }
+
+  .img-border .img {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .about-text p {
+    font-size: 14px;
+  }
+  .sevices .cards .item {
+    width: 50%;
+  }
+  .img-card {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 993px) {
+  .about-text {
+    width: 50%;
+    margin-left: 50px;
+  }
+  .about-img {
+    margin-left: 40px;
+  }
+}
